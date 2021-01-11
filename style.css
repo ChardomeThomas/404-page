@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-family: fantasy;
+}
+p{
+  text-align: center;
+  font-size: 100px;
+  font-family: fantasy;
+}
+.hide {
+  display: none;
+}
+
+.skill:hover + .hide {
+  text-align: center;
+  display: block;
+  color: red;
+}
+img.gif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+  position: relative;
+  top: 340px; left: 880px;
+  padding: 10px 24px;
+  border-radius: 12px;
+
+}
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(255,255,255,255), 0 17px 50px 0 rgba(255,255,255,255);
+}
